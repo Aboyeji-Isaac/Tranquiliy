@@ -88,6 +88,7 @@ div#parent section .title h1 {
 div#parent section .content {
     font-family: mada;
     overflow: hidden;
+    margin-right: 20px;
 }
 
 div#parent section .content h5 {
@@ -284,4 +285,40 @@ div#parent footer .foo.text p {
     line-height: 28px;
 }
 
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Mobile styles */
+  @media only screen and (max-width: 768px) {
+    .header {
+      background-image: url('header-image.jpg');
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 24px;
+    }
+  
+    .social-media-icons {
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+  
+    .event-details,
+    .advice-section {
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .image-carousel {
+      display: none; /* Hide carousel on mobile if not needed */
+    }
+  }
+  
 
